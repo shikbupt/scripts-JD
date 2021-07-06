@@ -30,7 +30,7 @@ if ($.isNode()) {
     return;
   }
   // 下载最新代码
-  await downFile();
+  //await downFile();
   const content = await fs.readFileSync('./JD_DailyBonus.js', 'utf8')
   for (let i =0; i < cookiesArr.length; i++) {
     cookie = cookiesArr[i];
